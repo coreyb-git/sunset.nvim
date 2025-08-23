@@ -44,7 +44,7 @@ local function timer_update()
 	end
 
 	if change then
-		vim.notify("Night-Mode: Changing colorscheme to " .. col .. " (bg=" .. bg .. ")")
+		--		vim.notify("Night-Mode: Changing colorscheme to " .. col .. " (bg=" .. bg .. ")")
 		vim.cmd("colorscheme " .. col)
 		vim.cmd("set bg=" .. bg)
 	end
